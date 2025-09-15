@@ -23,10 +23,7 @@ CGCL unifies **classification** and **clustering** objectives to learn discrimin
 .
 ├── data/                 # Dataset and preprocessing scripts
 ├── models/              # Model definitions and loss functions
-├── experiments/         # Training scripts and hyperparameter search
-├── results/             # Saved metrics, tables, and figures
 ├── utils/               # Helper functions
-└── main.py             # Entry point for training and evaluation
 ```
 
 ---
@@ -38,27 +35,6 @@ Clone this repository and install the required dependencies:
 git clone https://github.com/your-username/fraudulent-job-detection-cgcl.git
 cd fraudulent-job-detection-cgcl
 pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-Run training with default parameters:
-
-```bash
-python main.py --embedding glove --epochs 2000
-```
-
-Example with Word2Vec:
-
-```bash
-python main.py --embedding word2vec --epochs 1500
-```
-
-For TF-IDF:
-
-```bash
-python main.py --embedding tfidf --epochs 1000
 ```
 
 ---
@@ -181,7 +157,7 @@ python -m pytest tests/
 ---
 
 ## 📧 Contact
-For any queries, please contact: **your.email@example.com**
+For any queries, please contact: **k224058@nu.edu.pk**
 
 ---
 
