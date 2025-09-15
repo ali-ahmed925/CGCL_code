@@ -119,20 +119,6 @@ push_loss = max(0, margin - d(z_i, c_j))²
 
 ---
 
-## 📑 Citation
-If you use this work, please cite our paper:
-
-```bibtex
-@article{yourpaper2025,
-  title={Fraudulent Job Posting Detection with Centroid-Guided Contrastive Loss},
-  author={Your Name and Co-authors},
-  year={2025},
-  journal={Conference/Journal Name}
-}
-```
-
----
-
 ## 🏷️ Keywords
 Fraud Detection, Contrastive Learning, Clustering, Word2Vec, GloVe, TF-IDF, Anomaly Detection, Representation Learning
 
